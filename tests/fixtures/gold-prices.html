@@ -2692,7 +2692,7 @@ document.body.appendChild(myFrame);
 import {initializeApp} from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
 import {getMessaging, getToken, onMessage} from "https://www.gstatic.com/firebasejs/9.10.0/firebase-messaging.js";
 var firebaseConfig = {
-apiKey: "AIzaSyBSGKuzIu7mkHGzLuONSe82QCDfTdFWQMI",
+apiKey: "REDACTED",
 authDomain: "api-project-1038889809979.firebaseapp.com",
 databaseURL: "https://api-project-1038889809979.firebaseio.com",
 projectId: "api-project-1038889809979",
@@ -2709,7 +2709,7 @@ getStartToken();
 }
 function getStartToken() {
 getToken(messaging, {
-vapidKey: 'BNU903FIoKNbLBdASu5tSnERS2YboY7jpOZcrFflJtqWoQnXJH70hy0T6mfSxlziTcMNgo2fU8NCl5BXHmZNMsQ'
+vapidKey: 'REDACTED'
 }).then(function (currentToken) {
 if (currentToken) {
 sendTokenToServer(currentToken);
